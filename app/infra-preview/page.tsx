@@ -11,7 +11,7 @@ const InfrastructurePage: React.FC = () => {
 
   const handleContinue = () => {
     window.open(
-      "https://app.datadoghq.com/software?env=prod&fromUser=false&hostGroup=%2A&lens=Ownership&view=map&start=1743400634345&end=1743404234345",
+      "https://app.datadoghq.com/infrastructure/map?fillby=avg%3Acpuutilization&nometrichosts=true",
       "_blank",
       "noopener,noreferrer"
     );
