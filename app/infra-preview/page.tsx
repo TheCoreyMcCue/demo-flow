@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-import infrastructureImage from "../../public/images/infra.png"; // Replace with your actual image
+import infrastructureImage from "../../public/images/Infra.png"; // Replace with your actual image
 
 const InfrastructurePage: React.FC = () => {
   const router = useRouter();

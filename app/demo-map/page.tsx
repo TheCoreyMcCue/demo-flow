@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-import subwayMap from "../../public/images/subway.png";
+import subwayMap from "../../public/images/Subway.png";
 
 const DemoMapPage: React.FC = () => {
   const router = useRouter();
