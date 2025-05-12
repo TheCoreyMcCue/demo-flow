@@ -24,8 +24,8 @@ const MonitorsPreviewPage: React.FC = () => {
           Datadog Monitors provide vital visibility into your infrastructure,
           enabling proactive detection and real-time response to performance
           issues and outages. By configuring monitors to track key metrics and
-          thresholds, organizations can receive immediate alerts and address
-          problems before they impact customers or cause system downtime.
+          thresholds, you can receive immediate alerts and address problems
+          before they impact customers or cause system downtime.
         </p>
 
         <div className="rounded-2xl overflow-hidden shadow-2xl mb-12 w-full max-h-[600px]">
