@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-import integrationsPreviewImage from "../../public/images/integrations2.png";
+import integrationsPreviewImage from "../../public/images/integrations.png";
 
 const IntegrationsPreviewPage: React.FC = () => {
   const router = useRouter();
@@ -27,8 +27,9 @@ const IntegrationsPreviewPage: React.FC = () => {
           Integrations in Action
         </h1>
         <p className="text-xl text-purple-200 mb-10">
-          Here’s a snapshot of the integrations powering this demo. These are
-          the building blocks enabling full observability across services.
+          Datadog Integrations unify metrics, logs, and events from over 850
+          technologies—giving you full visibility into every layer of your
+          system, in one platform.
         </p>
 
         <div className="rounded-2xl overflow-hidden shadow-2xl mb-12 w-full">

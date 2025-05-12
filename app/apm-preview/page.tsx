@@ -27,8 +27,13 @@ const ApmPreviewPage: React.FC = () => {
           APM at a Glance
         </h1>
         <p className="text-xl text-purple-200 mb-10">
-          Follow request traces through your system and uncover where latency,
-          errors, or bottlenecks occur in real time.
+          Datadog Application Performance Monitoring (APM) provides deep
+          visibility into your applications, enabling you to identify
+          performance bottlenecks, troubleshoot issues, and optimize your
+          services. With distributed tracing, out-of-the-box dashboards, and
+          seamless correlation with other telemetry data, Datadog APM helps
+          ensure the best possible performance and user experience for your
+          applications.
         </p>
 
         <div className="relative w-full max-w-4xl aspect-video mb-12 rounded-2xl overflow-hidden shadow-2xl">

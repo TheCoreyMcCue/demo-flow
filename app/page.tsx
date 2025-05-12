@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-import heroImage from "../public/images/hero.png";
+import heroImage from "../public/images/hero2.png";
 
 const DemoLandingPage: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const DemoLandingPage: React.FC = () => {
         </h1>
         <p className="text-xl text-purple-200 mb-10">
           Today, we’re investigating a critical issue affecting our checkout
-          flow: the 100OFF promo code.
+          flow.
         </p>
 
         <div className="rounded-2xl overflow-hidden shadow-2xl mb-12 w-full">

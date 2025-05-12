@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-import monitorsImage from "../../public/images/Monitors.png"; // Replace with your actual image
+import monitorsImage from "../../public/images/monitor.png"; // Replace with your actual image
 
 const MonitorsPreviewPage: React.FC = () => {
   const router = useRouter();
@@ -21,8 +21,11 @@ const MonitorsPreviewPage: React.FC = () => {
           Monitors & Alerting
         </h1>
         <p className="text-xl text-purple-200 mb-10">
-          Datadog monitors alert you in real time when your systems misbehave —
-          based on metrics, logs, traces, or synthetic data.
+          Datadog Monitors provide vital visibility into your infrastructure,
+          enabling proactive detection and real-time response to performance
+          issues and outages. By configuring monitors to track key metrics and
+          thresholds, organizations can receive immediate alerts and address
+          problems before they impact customers or cause system downtime.
         </p>
 
         <div className="rounded-2xl overflow-hidden shadow-2xl mb-12 w-full max-h-[600px]">

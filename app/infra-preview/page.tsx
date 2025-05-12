@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-import infrastructureImage from "../../public/images/Infra.png"; // Replace with your actual image
+import infrastructureImage from "../../public/images/infrastructure-monitoring-diagram.png";
 
 const InfrastructurePage: React.FC = () => {
   const router = useRouter();
@@ -27,8 +27,11 @@ const InfrastructurePage: React.FC = () => {
           Infrastructure Overview
         </h1>
         <p className="text-xl text-purple-200 mb-10">
-          Datadog Infrastructure Monitoring provides near real-time visibility
-          into your compute, containers, and cloud services.
+          Datadog Infrastructure Monitoring is the foundation of unified
+          observability—built to ensure uptime, optimize performance, and secure
+          your entire environment. With deep integrations, intelligent alerts,
+          and near real-time visibility from hardware to application, Datadog
+          empowers teams to scale with confidence
         </p>
 
         <div className="rounded-2xl overflow-hidden shadow-2xl mb-12 w-full">
